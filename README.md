@@ -99,20 +99,84 @@ This repository includes examples for:
 
 ## Available Libraries
 
-The code execution environment includes these pre-installed libraries:
+The code execution environment includes the following pre-installed libraries:
 
-- NumPy
-- Pandas
-- Matplotlib
-- SciPy
-- Scikit-learn
-- And more (see the full list in the API documentation)
+- **Data Analysis & Processing**
+  - NumPy - Numerical computing
+  - Pandas - Data manipulation and analysis
+  - Tabulate - Pretty-print tabular data
+  
+- **Machine Learning & Statistics**
+  - Scikit-learn (sklearn) - Machine learning
+  - StatsModels - Statistical models and tests
+  
+- **Visualization**
+  - Matplotlib - Comprehensive visualization
+  - Seaborn - Statistical data visualization
+  - Altair - Declarative statistical visualization
+  
+- **Scientific Computing**
+  - SciPy - Scientific computing
+  - SymPy - Symbolic mathematics
+  - MPMath - Arbitrary precision arithmetic
+  
+- **Computer Vision & Image Processing**
+  - OpenCV (cv2) - Computer vision
+  
+- **Document Processing**
+  - PDFMiner - PDF document parsing
+  - ReportLab - PDF generation
+  - StripRTF - RTF document parsing
+  
+- **Specialized Libraries**
+  - Chess - Chess game representation and move generation
+
+Note: You cannot install additional libraries in the sandbox environment. All code must use only these pre-installed libraries.
 
 ## Advanced Features
 
 - **File I/O**: Process user-uploaded files
 - **Graph Output**: Generate and display visualizations
 - **Multimodal Capabilities**: Combine with other Gemini features
+
+## Epic Experiment: The Chess Master's Climate Analysis
+
+This repository includes an epic experiment that demonstrates the full power of Gemini's code execution capabilities by combining multiple libraries to create a comprehensive analysis spanning multiple domains:
+
+### What the Experiment Does
+
+The experiment simulates a scenario where a chess grandmaster is analyzing climate patterns to determine optimal tournament locations based on historical weather data, player performance metrics, and visual analysis of venues. It:
+
+1. **Generates synthetic climate data** for five cities over 20 years
+2. **Creates chess tournament data** with performance metrics for top players
+3. **Analyzes the relationship** between temperature and chess performance
+4. **Uses computer vision** to analyze chess positions
+5. **Creates a mathematical model** using symbolic mathematics
+6. **Generates a comprehensive PDF report** with visualizations and findings
+7. **Uses Gemini** to analyze the results and provide insights
+
+### Libraries Showcased
+
+The experiment demonstrates the use of multiple libraries available in the Gemini code execution environment:
+
+- **Data Analysis**: NumPy, Pandas, Tabulate
+- **Visualization**: Matplotlib, Seaborn, Altair
+- **Machine Learning**: Scikit-learn
+- **Computer Vision**: OpenCV (cv2)
+- **Mathematical Modeling**: SymPy, MPMath
+- **Statistical Analysis**: StatsModels
+- **Document Generation**: ReportLab
+- **Chess Analysis**: Chess
+
+### Running the Experiment
+
+To run the epic experiment:
+
+```bash
+python epic_experiment.py
+```
+
+This will execute the full analysis pipeline and generate various outputs including data visualizations and a PDF report.
 
 ## Resources
 

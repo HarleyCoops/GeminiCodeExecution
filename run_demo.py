@@ -30,6 +30,11 @@ EXAMPLES = [
         "name": "Debugging Examples",
         "script": "debugging_example.py",
         "description": "Examples of using Gemini to debug problematic code"
+    },
+    {
+        "name": "Epic Experiment",
+        "script": "epic_experiment.py",
+        "description": "Comprehensive experiment combining multiple libraries and analyses"
     }
 ]
 
@@ -84,7 +89,7 @@ def show_menu():
         print("=" * 60)
         
         try:
-            choice = input("Enter your choice (0-4): ")
+            choice = input(f"Enter your choice (0-{len(EXAMPLES)}): ")
             
             if choice == "0":
                 clear_screen()
