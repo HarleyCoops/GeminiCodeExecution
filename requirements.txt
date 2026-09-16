@@ -1,8 +1,8 @@
 google-generativeai>=0.8.6
-numpy>=2.5.2
+numpy>=2.5.3
 pandas>=3.0.5
-matplotlib>=3.11.1
-scikit-learn>=1.9.0
+matplotlib>=3.11.2
+scikit-learn>=1.9.1
 scipy>=1.18.1
 jupyter>=1.1.1
 python-dotenv>=1.2.3 
